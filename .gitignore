@@ -1,0 +1,18 @@
+# Ignore dataset folders
+train/
+valid/
+test/
+data/
+
+# Ignore large/binary stuff
+*.h5
+*.tar.gz
+*.zip
+*.7z
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
